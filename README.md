@@ -1,16 +1,29 @@
-# note_pad_app
+# Notepad App
 
-A new Flutter project.
+This Notepad app allows users to create, view, edit, and delete notes with a simple and clean interface. The app is powered by Flutter and uses SQLite for local storage to persist data across app sessions.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* Create a new note with a title and description.
+* View a list of saved notes.
+* Edit an existing note.
+* Delete notes from the database.
+* Data is persisted using SQLite.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+``` git clone https://github.com/yourusername/notepad-app.git ```
+``` cd notepad-app ```
+
+Install dependencies:
+
+``` flutter pub get ```
+
+Run the app:
+
+``` flutter run ```
+
+## Video Demo
+
